@@ -1,0 +1,471 @@
+/* html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
+    color: black !important; 
+}
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
+     background: #FFF !important;
+    color: black !important; 
+}
+ */
+ 
+ /*----------------------------------------------------------при включении версии убираем со старинце всё лишнее-----------------------------------------------------------------------------------*/
+.backgroundColorNone{
+	background:#fff !important;
+}
+.positionDelete{
+	display:none !important;
+}
+.backgroundNone{
+	background:none !important;
+}
+.newsEdit{
+	float: none !important;
+    width: 100% !important;
+}
+ /*----------------------------------------------------------при включении версии убираем со старинце всё лишнее------------------------------------------------------------------------------------*/
+ 
+.bacCol{
+    color: black !important;
+}
+
+.noneTable{
+	display:none !important;
+}
+
+
+
+.tabSvOnOff>tbody>tr>td div {
+	font-size: 17px !important;
+	font: 62.5%/1.3 "Times New Roman", serif;
+}
+.tabSvOnOff>tbody>tr>td span  {
+	font-size: 19px !important;
+	padding: 4px!important;
+}
+ 
+.artNav{ 
+	margin-top:60px !important;
+}
+
+
+
+table.tabSvOnOff.bacCol {
+    font-family: Arial, sans-serif;
+}
+
+
+
+/* Резииновое меню */
+/*Резиновое меню   table#swmenu tbody tr td*/
+.menu_rubber{
+	display: inline-block;
+}
+/* Контент опускается при увеличении меню  его класс .art-sheet-body  */
+.content_rubber_top{
+	padding-top: 90px !important;
+}
+/* Резииновое меню */
+
+.dopCss{
+	position: fixed;
+    right: 0px;
+    top: 0px;
+    z-index: 999;
+}
+
+
+
+
+/*----------------------------------------------------------Дополнительные настройки------------------------------------------------------------------------------------*/
+
+
+/*----------------------------------------------------------Настройка шрифта------------------------------------------------------------------------------------*/
+	/*--палочка вниз--*/
+.editBody {
+    background: url(http://special.kremlin.ru/static/blind/img/access/arr.png) no-repeat 100% 60%; 
+    width: 10px; 
+    height: 10px; 
+    cursor: pointer; 
+	display: inline-block;
+    margin-left: 8px;
+
+}
+
+/*--Шестиренка--*/
+.setting {
+    background-image: url(http://special.kremlin.ru/static/blind/img/access/a-settings.png);
+    width: 38px;
+    height: 26px;
+    display: inline-block;
+	margin-right: -14px;
+    margin-left: 15px;
+}
+.editText{
+	cursor: pointer;
+}
+/*----------------------------------------------------------Настройка шрифта------------------------------------------------------------------------------------*/
+
+
+.extraSetting{
+	display:none;
+}
+.settingKult{
+    position: absolute;
+    background: #f6f6f6;
+    z-index: 9;
+    width: 100%;
+    margin-top: 13px;
+    border: 1px solid #e5e5e5;
+	box-shadow: 0 0 6px #777;
+}
+
+.arial, .timesNewRoman, .standatr, .middle, .big {
+    border: 1px solid #7e7e7e;
+    padding: 4px;
+    border-radius: 7px;
+    font-weight: bold;
+	cursor:pointer;
+}
+.returnStandSetting, .closePanel {
+border: 3px solid #232323;
+    display: inline-block;
+    padding: 6px;
+    font-weight: bold !important;
+    margin-top: 25px;
+    float: right;
+    margin-right: 14px;
+    margin-bottom: 21px;
+	cursor:pointer;
+}
+.fonrAll{
+	cursor:pointer;
+}
+/*Настройки шрифта*/
+.fonFamilyArial{
+	font-family: arial;
+}
+.fonFamilyTnr{
+	font-family: times new roman;
+}
+/*Настройки шрифта*/
+
+/*Интервал между буквами*/
+.spacingMiddle{
+	letter-spacing: 2px;
+}
+.spacingBig{
+	letter-spacing: 5px;
+}
+/*Интервал между буквами*/
+
+/*----------------------------------------------------------Дополнительные настройки------------------------------------------------------------------------------------*/
+
+/*----------------------------------------------------------Работа с изображениями------------------------------------------------------------------------------------*/
+.isButton{
+	background-image: url(http://special.kremlin.ru/static/blind/img/access/images.png) !important;
+    width: 90px!important;
+    height: 26px;
+    margin-right: -42px!important;
+    background-position: 0px 54px!important;
+}
+.deleteImg{
+	display: none !important;
+}
+/*----------------------------------------------------------Работа с изображениями------------------------------------------------------------------------------------*/
+
+/*----------------------------------------------------------Размер текста устанавливаемый js------------------------------------------------------------------------------------*/
+.svSmall{
+	font-size:14px !important;
+}
+.svSmallBacPosit{
+background-position: 0px 93px !important;
+    height: 30px !important;
+}
+.svNormal{
+	font-size:17px !important;
+	line-height: 20px !important;
+}
+.svNormallBacPosit{
+    background-position: 50px 93px!important;
+    height: 30px!important;
+}
+.svLarge{
+	font-size:23px !important;
+	line-height: 25px !important;
+}
+.svLargeBacPosit{
+background-position: 26px 28px !important;
+    height: 27px !important;
+}
+/*----------------------------------------------------------Размер текста устанавливаемый js------------------------------------------------------------------------------------*/
+
+/*----------------------------------------------------------Стиль для левого меню------------------------------------------------------------------------------------*/
+.leftMenu{
+	height: 100% !important;
+    line-height: 25px !important;; 
+    width: 100% !important;
+}
+/*----------------------------------------------------------Стиль для левого меню------------------------------------------------------------------------------------*/
+
+.svc-norm {
+    color: #7A7A7A !important;
+	/* background: white !important; */
+}
+
+.displayImgNone{
+	display:none;
+}
+
+.sv-on, .sv-off, .sv-small, .sv-normal, .sv-large, .svi-off, .svc-norm, .svc-dark, .svc-blue{
+	cursor:pointer;
+}
+.sv-on {
+    background-image: url(http://kultura-to.ru/templates/sj_veritymag/images/blind.png);
+    line-height: 1;
+    color: white;
+    width: 191px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 5px;
+    padding: 5px;
+    height: 90px;
+    background-size: 101%;
+    background-repeat: no-repeat;
+}
+.svc-norm{
+	/* o */
+    /* color: #000 !important; */
+}
+
+.svc-dark{
+	/* background: #000 !important; */
+    color: #FFF !important;
+}
+
+.svc-blue{
+	/* background: #9DD1FF !important; */
+	color: #000;
+}
+.svc-norm, .svc-dark, .svc-blue{
+/* 	display: inline-block;
+    padding: 7px; */
+    /* border: soild 1px black; */
+    /* font-weight: bold; */
+    cursor: pointer;
+}
+
+.sv-onOff{
+	display:none;
+}
+.sv-onQueryOn{
+	display: inline-block !important;
+}
+
+.sv-onQueryOff{
+	display:none;
+}
+
+.sv-onOff{
+	display:none;
+}
+
+.bord {
+    /* border: 1px solid #D7D4D4; */
+}
+/*опускаем сайт на 60px*/
+.siteBottom{
+	margin-top:60px!important;
+}
+
+div#noBack {
+    /* background: none !important; */
+	text-shadow: #fff 0 1px 0;
+}
+
+/*----------------------------------------------------------Работа с размером шрифта------------------------------------------------------------------------------------*/
+.sv-small{
+font-size: 18px !important;
+    font-size: 18px !important;
+    display: inline-block;
+    background-image: url(http://special.kremlin.ru/static/blind/img/access/fontsize.png) !important;
+    width: 20px;
+    text-decoration: none;
+    height: 25px;
+    margin-left: -15px;
+    display: inline;
+    float: left;
+    position: relative;
+    top: -3px;
+}
+.sv-small {
+    font-size: 18px !important;
+    display: inline-block;
+}
+.sv-small:hover {
+    background-position: 0px 93px;
+    height: 30px;
+}
+
+
+.sv-normal{
+	font-size:23px !important;
+	    background-image: url(http://special.kremlin.ru/static/blind/img/access/fontsize.png) !important;
+    width: 21px;
+    text-decoration: none;
+    height: 25px;
+    position: relative;
+    top: -3px;
+    background-position: 50px 61px;
+	margin-right: -3px;
+}
+
+.sv-normal:hover {
+    background-position: 50px 93px;
+    height: 30px;
+}
+.sv-large{
+	font-size:28px !important;
+	background-image: url(http://special.kremlin.ru/static/blind/img/access/fontsize.png) !important;
+    width: 25px;
+    text-decoration: none;
+    height: 25px;
+    position: relative;
+    top: -3px;
+    background-position: 26px -127px;
+}
+
+.sv-large:hover {
+    background-position: 26px 28px;
+    height: 27px;
+}
+/*----------------------------------------------------------Работа с размером шрифта------------------------------------------------------------------------------------*/
+
+
+
+
+/*-----------------------------------------------------------------Работа с изображением (показать/скрыть изображения)-----------------------------------------------------------------------------*/
+.svi-off {
+    background-image: url(http://special.kremlin.ru/static/blind/img/access/images.png) !important;
+    width: 90px;
+    height: 26px;
+    margin-right: -42px;
+    background-position: 0px 27px;
+}
+/*-----------------------------------------------------------------Работа с изображением (показать/скрыть изображения)-----------------------------------------------------------------------------*/
+
+
+
+/*-----------------------------------------------------------------Фон сайта (Белый/Черный/Голубой)-----------------------------------------------------------------------------*/
+.svcDark{
+	background:black !important;
+	color: white !important;
+}
+.svcNorm{
+	background:whte !important;
+	color: black !important;
+}
+.svcBlue{
+	background:#9DD1FF !important;
+	color: black !important;
+}
+.svcBrown{
+    background: #f7f3d6 !important;
+    color: #59422e !important;
+}
+.greenBrown{
+    background: #3b2716 !important;
+    color: #a9dd38 !important;
+}
+
+
+					/*-------------------------------------------*/
+.svi-color {
+    margin-right: -15px;
+    margin-left: 20px;
+}
+.svc-norm {
+background-image: url(http://special.kremlin.ru/static/blind/img/access/colors.png) !important;
+    width: 26px !important;
+    height: 31px !important;
+    margin-right: -5px;
+}
+.svc-norm:hover {
+	background-image: url(http://special.kremlin.ru/static/blind/img/access/colors.png) !important;
+    margin-right: -5px;
+    height: 31px !important;
+    background-position: 0px 31px !important;
+}
+.whiteBackground{
+	background-image: url(http://special.kremlin.ru/static/blind/img/access/colors.png) !important;
+    margin-right: -5px;
+    height: 31px !important;
+    background-position: 0px 31px !important;
+}
+					/*-------------------------------------------*/
+.svc-dark {
+    color: #FFF !important;
+    background-image: url(http://special.kremlin.ru/static/blind/img/access/colors.png) !important;
+    width: 26px !important;
+    height: 31px !important;
+    margin-right: -5px;
+    background-position: 52px 0px;
+}
+.svc-dark:hover {
+    color: #FFF !important;
+    background-image: url(http://special.kremlin.ru/static/blind/img/access/colors.png) !important;
+    width: 26px !important;
+    height: 31px !important;
+    margin-right: -5px;
+    background-position: 52px 31px;
+}
+.darkBackground{
+	color: #FFF !important;
+    background-image: url(http://special.kremlin.ru/static/blind/img/access/colors.png) !important;
+    width: 26px !important;
+    height: 31px !important;
+    margin-right: -5px;
+    background-position: 52px 31px;
+}
+					/*-------------------------------------------*/
+.svc-blue {
+    color: #000;
+    color: #FFF !important;
+    background-image: url(http://special.kremlin.ru/static/blind/img/access/colors.png) !important;
+    width: 26px !important;
+    height: 31px !important;
+    margin-right: -5px;
+    background-position: 26px 0px;
+}
+.svc-blue:hover {
+    color: #000;
+    color: #FFF !important;
+    background-image: url(http://special.kremlin.ru/static/blind/img/access/colors.png) !important;
+    width: 26px !important;
+    height: 31px !important;
+    margin-right: -5px;
+    background-position: 26px 31px;
+}
+.blueBackground{
+    color: #000;
+    color: #FFF !important;
+    background-image: url(http://special.kremlin.ru/static/blind/img/access/colors.png) !important;
+    width: 26px !important;
+    height: 31px !important;
+    margin-right: -5px;
+    background-position: 26px 31px;
+}
+					/*-------------------------------------------*/
+/*-----------------------------------------------------------------Фон сайта (Белый/Черный/Голубой)-----------------------------------------------------------------------------*/
+
+/*-----------------------------------------------------------------Обычная версия сайта-----------------------------------------------------------------------------*/
+.sv-off.bacCol {
+    font-style: normal;
+	background: none !important;
+	text-shadow: #fff 0 1px 0;
+	font-size: 19px !important;
+}
+/*-----------------------------------------------------------------Обычная версия сайта-----------------------------------------------------------------------------*/
+
+
+
+

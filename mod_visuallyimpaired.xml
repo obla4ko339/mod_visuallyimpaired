@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="3.1.0" client="site" method="upgrade">
+     
+        <name>mod_visuallyimpaired</name>
+      
+        <creationDate>Feb 2016</creationDate>
+        <author>Bullet</author>
+        <authorEmail>volodya.grab@yandex.ru</authorEmail>
+        <authorUrl>#</authorUrl>
+        <copyright>Copyright</copyright>
+        <license>License Info</license>
+       
+        <version>0.0.1</version>
+   
+        <description>Version visuallyimpaired</description>
+ 
+        <files>	
+				<folder>tmpl</folder>
+                <filename module="mod_visuallyimpaired">mod_visuallyimpaired.php</filename>
+                <filename>mod_visuallyimpaired.xml</filename>
+                <filename>tmpl/default.php</filename>
+                <filename>index.html</filename>
+        </files>
+		
+		<media destination="visuallyImpaired" folder="media">
+	 <folder>js</folder>
+	 <folder>css</folder>
+	 <file>index.html</file>
+	</media>
+		
+		
+		
+	<config>
+		<fields name="params">
+		
+		
+			<fieldset name="basic">
+				<field name="fonSite" type="radio" class="btn-group" label="Управлять фоном сайта" description="formatting" labelclass="control-label">
+					  <option value="1">Да</option>
+					  <option value="0">Нет</option>
+				</field>
+				<field name="imgSite" type="radio" class="btn-group" label="Управлять изображениями сайта (вкл. и выкл.)" description="formatting" labelclass="control-label">
+					  <option value="1">Да</option>
+					  <option value="0">Нет</option>
+				</field>
+			</fieldset>
+			
+			
+			
+		</fields>
+	</config>
+		
+		
+</extension>
